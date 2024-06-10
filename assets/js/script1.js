@@ -1,3 +1,5 @@
+//ejercicio 1
+
 const imagen = document.getElementById('img');
 let contador = 0;
 
@@ -11,3 +13,5 @@ imagen.addEventListener('click', ()=>{
     }
 
 } )
+
+

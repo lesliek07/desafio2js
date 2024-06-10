@@ -34,11 +34,83 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 60px)
+    height: calc(100vh - 60px);
 }
 .borde{
     border: 2px solid red;
 }
 img{
     width: 400px;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.cards{
+    display: flex;
+    justify-content:center ;
+    align-items: center ;
+    gap: 20px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.card img{
+    width: 300px;
+    border: 1px solid black;
+}
+.txt{
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+
+}
+.verifica{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+button{
+    width: 250px;
+    background-color: blueviolet;
+    color: #ffffff;
+    padding: 15px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap:30px;
+    padding-top: 50px;
+}
+.pass{
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    gap:20px;
+}
+select{
+    width: 50px;
+    padding: 5px;
 }
