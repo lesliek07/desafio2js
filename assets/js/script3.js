@@ -12,12 +12,11 @@ btn.addEventListener('click', ()=>{
 
     
     password = select1 + select2 + select3;
-    console.log(password);
 
     if(password == '911'){
         txt.innerHTML = 'Password 1 correcto';
     }else if ( password == '714'){
-        txt.innerHTML = 'Password 2 correcto';
+        txt.innerHTML = 'Password 2 es correcto';
     }else{
         txt.innerHTML = 'Password incorrecto'
     }
