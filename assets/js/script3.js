@@ -1,17 +1,17 @@
 //ejercicio 3
 
-let txt = document.getElementById('txt');
+const txt = document.getElementById('txt');
 const btn = document.getElementById('btn');
-let password = '';
+
 
 btn.addEventListener('click', ()=>{
 
-    let select1 = document.getElementById('select1').value;
-    let select2 = document.getElementById('select2').value;
-    let select3 = document.getElementById('select3').value;
+    const select1 = document.getElementById('select1').value;
+    const select2 = document.getElementById('select2').value;
+    const select3 = document.getElementById('select3').value;
 
     
-    password = select1 + select2 + select3;
+    const password = select1 + select2 + select3;
 
     if(password == '911'){
         txt.innerHTML = 'Password 1 correcto';
